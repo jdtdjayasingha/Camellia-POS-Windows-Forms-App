@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "lvKKbcVTQgk=",
+  "dgSpecHash": "NW/t3omArpQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\visio\\Documents\\Settings\\Project\\New folder\\Camellia\\CamelliaPOS\\CamelliaPOS.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\visio\\Documents\\Settings\\Git Hub\\Camellia-POS-Windows-Forms-App\\CamelliaPOS\\CamelliaPOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\visio\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.6\\guna.ui2.winforms.2.0.4.6.nupkg.sha512",
+    "C:\\Users\\visio\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
+    "C:\\Users\\visio\\.nuget\\packages\\system.management\\7.0.0\\system.management.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
