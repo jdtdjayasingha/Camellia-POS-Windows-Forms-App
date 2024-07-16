@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\visio\\Documents\\Settings\\Project\\New folder\\Camellia\\CamelliaPOS\\CamelliaPOS.csproj": {}
+    "C:\\Users\\visio\\Documents\\Settings\\Git Hub\\Camellia-POS-Windows-Forms-App\\CamelliaPOS\\CamelliaPOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\visio\\Documents\\Settings\\Project\\New folder\\Camellia\\CamelliaPOS\\CamelliaPOS.csproj": {
+    "C:\\Users\\visio\\Documents\\Settings\\Git Hub\\Camellia-POS-Windows-Forms-App\\CamelliaPOS\\CamelliaPOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\visio\\Documents\\Settings\\Project\\New folder\\Camellia\\CamelliaPOS\\CamelliaPOS.csproj",
+        "projectUniqueName": "C:\\Users\\visio\\Documents\\Settings\\Git Hub\\Camellia-POS-Windows-Forms-App\\CamelliaPOS\\CamelliaPOS.csproj",
         "projectName": "CamelliaPOS",
-        "projectPath": "C:\\Users\\visio\\Documents\\Settings\\Project\\New folder\\Camellia\\CamelliaPOS\\CamelliaPOS.csproj",
+        "projectPath": "C:\\Users\\visio\\Documents\\Settings\\Git Hub\\Camellia-POS-Windows-Forms-App\\CamelliaPOS\\CamelliaPOS.csproj",
         "packagesPath": "C:\\Users\\visio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\visio\\Documents\\Settings\\Project\\New folder\\Camellia\\CamelliaPOS\\obj\\",
+        "outputPath": "C:\\Users\\visio\\Documents\\Settings\\Git Hub\\Camellia-POS-Windows-Forms-App\\CamelliaPOS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\visio\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,12 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Guna.UI2.WinForms": {
+              "target": "Package",
+              "version": "[2.0.4.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
