@@ -90,7 +90,8 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(472, 30);
+            label1.ForeColor = SystemColors.MenuHighlight;
+            label1.Location = new Point(471, 41);
             label1.Name = "label1";
             label1.Size = new Size(155, 65);
             label1.TabIndex = 1;
@@ -100,7 +101,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(377, 122);
+            label2.Location = new Point(376, 133);
             label2.Name = "label2";
             label2.Size = new Size(105, 25);
             label2.TabIndex = 2;
@@ -110,7 +111,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.Location = new Point(376, 206);
+            label3.Location = new Point(375, 217);
             label3.Name = "label3";
             label3.Size = new Size(91, 25);
             label3.TabIndex = 3;
@@ -120,7 +121,7 @@
             // 
             userNameTextBox.BorderStyle = BorderStyle.FixedSingle;
             userNameTextBox.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            userNameTextBox.Location = new Point(383, 160);
+            userNameTextBox.Location = new Point(382, 171);
             userNameTextBox.Margin = new Padding(5);
             userNameTextBox.Name = "userNameTextBox";
             userNameTextBox.Size = new Size(338, 33);
@@ -130,7 +131,7 @@
             // 
             passwordTextBox.BorderStyle = BorderStyle.FixedSingle;
             passwordTextBox.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            passwordTextBox.Location = new Point(383, 245);
+            passwordTextBox.Location = new Point(382, 256);
             passwordTextBox.Margin = new Padding(5);
             passwordTextBox.Name = "passwordTextBox";
             passwordTextBox.Size = new Size(338, 33);
@@ -145,9 +146,9 @@
             loginButton.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             loginButton.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             loginButton.FillColor = SystemColors.MenuHighlight;
-            loginButton.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            loginButton.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             loginButton.ForeColor = Color.White;
-            loginButton.Location = new Point(578, 311);
+            loginButton.Location = new Point(577, 322);
             loginButton.Name = "loginButton";
             loginButton.ShadowDecoration.CustomizableEdges = customizableEdges4;
             loginButton.Size = new Size(143, 45);
@@ -164,12 +165,12 @@
             exitLoginButton.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             exitLoginButton.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             exitLoginButton.FillColor = Color.Red;
-            exitLoginButton.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            exitLoginButton.Font = new Font("Arial Black", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             exitLoginButton.ForeColor = Color.White;
-            exitLoginButton.Location = new Point(743, 12);
+            exitLoginButton.Location = new Point(748, 12);
             exitLoginButton.Name = "exitLoginButton";
             exitLoginButton.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            exitLoginButton.Size = new Size(45, 35);
+            exitLoginButton.Size = new Size(40, 30);
             exitLoginButton.TabIndex = 7;
             exitLoginButton.Text = "X";
             exitLoginButton.Click += exitLoginButton_Click;
