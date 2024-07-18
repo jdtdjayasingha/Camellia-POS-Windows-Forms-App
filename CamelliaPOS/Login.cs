@@ -16,10 +16,5 @@ namespace CamelliaPOS
         {
             InitializeComponent();
         }
-
-        private void exitLoginButton_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
     }
 }
