@@ -154,6 +154,7 @@
             loginButton.Size = new Size(143, 45);
             loginButton.TabIndex = 6;
             loginButton.Text = "Login";
+            loginButton.Click += loginButton_Click;
             // 
             // exitLoginButton
             // 
