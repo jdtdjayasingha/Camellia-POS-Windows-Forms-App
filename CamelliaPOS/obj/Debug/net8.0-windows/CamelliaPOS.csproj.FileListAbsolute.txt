@@ -22,3 +22,4 @@ C:\Users\visio\Documents\Settings\Git Hub\Camellia-POS-Windows-Forms-App\Camelli
 C:\Users\visio\Documents\Settings\Git Hub\Camellia-POS-Windows-Forms-App\CamelliaPOS\obj\Debug\net8.0-windows\Camellia.5E1747DE.Up2Date
 C:\Users\visio\Documents\Settings\Git Hub\Camellia-POS-Windows-Forms-App\CamelliaPOS\obj\Debug\net8.0-windows\CamelliaPOS.Properties.Resources.resources
 C:\Users\visio\Documents\Settings\Git Hub\Camellia-POS-Windows-Forms-App\CamelliaPOS\obj\Debug\net8.0-windows\CamelliaPOS.Items.resources
+C:\Users\visio\Documents\Settings\Git Hub\Camellia-POS-Windows-Forms-App\CamelliaPOS\obj\Debug\net8.0-windows\CamelliaPOS.Customers.resources
