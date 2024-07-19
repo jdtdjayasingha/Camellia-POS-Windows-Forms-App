@@ -107,7 +107,7 @@
             // 
             panel7.BackColor = Color.Blue;
             panel7.Controls.Add(label11);
-            panel7.Location = new Point(0, 436);
+            panel7.Location = new Point(0, 171);
             panel7.Name = "panel7";
             panel7.Size = new Size(276, 67);
             panel7.TabIndex = 7;
@@ -144,7 +144,7 @@
             // 
             panel5.BackColor = Color.Blue;
             panel5.Controls.Add(label9);
-            panel5.Location = new Point(0, 363);
+            panel5.Location = new Point(0, 466);
             panel5.Name = "panel5";
             panel5.Size = new Size(276, 67);
             panel5.TabIndex = 5;
@@ -162,7 +162,7 @@
             // 
             panel4.BackColor = Color.Blue;
             panel4.Controls.Add(label8);
-            panel4.Location = new Point(1, 286);
+            panel4.Location = new Point(1, 389);
             panel4.Name = "panel4";
             panel4.Size = new Size(276, 67);
             panel4.TabIndex = 4;
@@ -172,15 +172,15 @@
             label8.AutoSize = true;
             label8.Location = new Point(99, 27);
             label8.Name = "label8";
-            label8.Size = new Size(64, 17);
+            label8.Size = new Size(70, 17);
             label8.TabIndex = 0;
-            label8.Text = "Customer";
+            label8.Text = "Customers";
             // 
             // panel2
             // 
             panel2.BackColor = Color.Blue;
             panel2.Controls.Add(label7);
-            panel2.Location = new Point(0, 214);
+            panel2.Location = new Point(0, 317);
             panel2.Name = "panel2";
             panel2.Size = new Size(276, 67);
             panel2.TabIndex = 3;
@@ -198,7 +198,7 @@
             // 
             panel3.BackColor = Color.Blue;
             panel3.Controls.Add(label2);
-            panel3.Location = new Point(0, 142);
+            panel3.Location = new Point(0, 245);
             panel3.Name = "panel3";
             panel3.Size = new Size(276, 67);
             panel3.TabIndex = 2;
@@ -269,7 +269,7 @@
             // label13
             // 
             label13.AutoSize = true;
-            label13.Location = new Point(505, 106);
+            label13.Location = new Point(510, 106);
             label13.Name = "label13";
             label13.Size = new Size(71, 17);
             label13.TabIndex = 2;
@@ -278,7 +278,7 @@
             // label14
             // 
             label14.AutoSize = true;
-            label14.Location = new Point(687, 106);
+            label14.Location = new Point(692, 106);
             label14.Name = "label14";
             label14.Size = new Size(36, 17);
             label14.TabIndex = 3;
@@ -287,7 +287,7 @@
             // label15
             // 
             label15.AutoSize = true;
-            label15.Location = new Point(875, 106);
+            label15.Location = new Point(880, 106);
             label15.Name = "label15";
             label15.Size = new Size(39, 17);
             label15.TabIndex = 4;
@@ -311,14 +311,14 @@
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(687, 161);
+            textBox3.Location = new Point(692, 161);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(127, 25);
             textBox3.TabIndex = 8;
             // 
             // textBox4
             // 
-            textBox4.Location = new Point(875, 161);
+            textBox4.Location = new Point(880, 161);
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(127, 25);
             textBox4.TabIndex = 9;
@@ -333,7 +333,7 @@
             // comboBox1
             // 
             comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(496, 161);
+            comboBox1.Location = new Point(501, 161);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(152, 25);
             comboBox1.TabIndex = 11;
@@ -358,7 +358,7 @@
             // 
             // button4
             // 
-            button4.Location = new Point(739, 273);
+            button4.Location = new Point(739, 278);
             button4.Name = "button4";
             button4.Size = new Size(75, 38);
             button4.TabIndex = 14;
@@ -367,6 +367,7 @@
             // 
             // dataGridView1
             // 
+            dataGridView1.BackgroundColor = SystemColors.Control;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Location = new Point(295, 342);
             dataGridView1.Name = "dataGridView1";
