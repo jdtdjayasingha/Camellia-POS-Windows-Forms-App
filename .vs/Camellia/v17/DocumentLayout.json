@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\visio\\Documents\\Settings\\Git Hub\\Camellia-POS-Windows-Forms-App\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{3CA2A9E8-6D62-4A60-A110-97A7B32A176B}|CamelliaPOS\\CamelliaPOS.csproj|C:\\Users\\visio\\Documents\\Settings\\Git Hub\\Camellia-POS-Windows-Forms-App\\camelliapos\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3CA2A9E8-6D62-4A60-A110-97A7B32A176B}|CamelliaPOS\\CamelliaPOS.csproj|solutionrelative:camelliapos\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3CA2A9E8-6D62-4A60-A110-97A7B32A176B}|CamelliaPOS\\CamelliaPOS.csproj|C:\\Users\\visio\\Documents\\Settings\\Git Hub\\Camellia-POS-Windows-Forms-App\\camelliapos\\items.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3CA2A9E8-6D62-4A60-A110-97A7B32A176B}|CamelliaPOS\\CamelliaPOS.csproj|solutionrelative:camelliapos\\items.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -27,38 +18,13 @@
           ]
         },
         {
-          "DockedHeight": 120,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\visio\\Documents\\Settings\\Git Hub\\Camellia-POS-Windows-Forms-App\\CamelliaPOS\\Login.cs",
-              "RelativeDocumentMoniker": "CamelliaPOS\\Login.cs",
-              "ToolTip": "C:\\Users\\visio\\Documents\\Settings\\Git Hub\\Camellia-POS-Windows-Forms-App\\CamelliaPOS\\Login.cs [Design]",
-              "RelativeToolTip": "CamelliaPOS\\Login.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T04:40:05.415Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Items.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\visio\\Documents\\Settings\\Git Hub\\Camellia-POS-Windows-Forms-App\\CamelliaPOS\\Items.cs",
-              "RelativeDocumentMoniker": "CamelliaPOS\\Items.cs",
-              "ToolTip": "C:\\Users\\visio\\Documents\\Settings\\Git Hub\\Camellia-POS-Windows-Forms-App\\CamelliaPOS\\Items.cs [Design]",
-              "RelativeToolTip": "CamelliaPOS\\Items.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T04:39:41.549Z"
-            }
-          ]
-        },
-        {
           "DockedHeight": 24,
           "SelectedChildIndex": -1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
