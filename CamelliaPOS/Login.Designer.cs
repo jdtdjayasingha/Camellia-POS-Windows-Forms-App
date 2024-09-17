@@ -44,7 +44,7 @@
             userNameTextBox = new TextBox();
             passwordTextBox = new TextBox();
             loginButton = new Guna.UI2.WinForms.Guna2Button();
-            exitLoginButton = new Guna.UI2.WinForms.Guna2Button();
+            btnExit = new Guna.UI2.WinForms.Guna2Button();
             loginSidePanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -63,11 +63,11 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Font = new Font("Jokerman", 26.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.Font = new Font("Microsoft Sans Serif", 26.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label4.ForeColor = Color.FromArgb(255, 192, 255);
             label4.Location = new Point(40, 275);
             label4.Name = "label4";
-            label4.Size = new Size(225, 51);
+            label4.Size = new Size(195, 39);
             label4.TabIndex = 1;
             label4.Text = "CAMELLIA";
             // 
@@ -156,25 +156,25 @@
             loginButton.Text = "Login";
             loginButton.Click += loginButton_Click;
             // 
-            // exitLoginButton
+            // btnExit
             // 
-            exitLoginButton.Anchor = AnchorStyles.None;
-            exitLoginButton.BorderRadius = 5;
-            exitLoginButton.CustomizableEdges = customizableEdges1;
-            exitLoginButton.DisabledState.BorderColor = Color.DarkGray;
-            exitLoginButton.DisabledState.CustomBorderColor = Color.DarkGray;
-            exitLoginButton.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            exitLoginButton.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            exitLoginButton.FillColor = Color.Red;
-            exitLoginButton.Font = new Font("Arial Black", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            exitLoginButton.ForeColor = Color.White;
-            exitLoginButton.Location = new Point(748, 12);
-            exitLoginButton.Name = "exitLoginButton";
-            exitLoginButton.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            exitLoginButton.Size = new Size(40, 30);
-            exitLoginButton.TabIndex = 7;
-            exitLoginButton.Text = "X";
-            exitLoginButton.Click += exitLoginButton_Click;
+            btnExit.Anchor = AnchorStyles.None;
+            btnExit.BorderRadius = 5;
+            btnExit.CustomizableEdges = customizableEdges1;
+            btnExit.DisabledState.BorderColor = Color.DarkGray;
+            btnExit.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnExit.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnExit.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnExit.FillColor = Color.Red;
+            btnExit.Font = new Font("Arial Black", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnExit.ForeColor = Color.White;
+            btnExit.Location = new Point(748, 12);
+            btnExit.Name = "btnExit";
+            btnExit.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            btnExit.Size = new Size(40, 30);
+            btnExit.TabIndex = 8;
+            btnExit.Text = "X";
+            btnExit.Click += btnExit_Click;
             // 
             // Login
             // 
@@ -182,7 +182,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(800, 450);
-            Controls.Add(exitLoginButton);
+            Controls.Add(btnExit);
             Controls.Add(loginButton);
             Controls.Add(passwordTextBox);
             Controls.Add(userNameTextBox);
@@ -215,6 +215,6 @@
         private PictureBox pictureBox1;
         private Label label4;
         private Guna.UI2.WinForms.Guna2Button loginButton;
-        private Guna.UI2.WinForms.Guna2Button exitLoginButton;
+        private Guna.UI2.WinForms.Guna2Button btnExit;
     }
 }

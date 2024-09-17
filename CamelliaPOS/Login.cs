@@ -16,14 +16,14 @@ namespace CamelliaPOS
         {
             InitializeComponent();
         }
-        private void exitLoginButton_Click(object sender, EventArgs e)
+        private void btnExit_Click(object sender, EventArgs e)
         {
             this.Close();
         }
         private void loginButton_Click(object sender, EventArgs e)
         {
             Items itemsObj = new Items();
-            this.Hide(); 
+            this.Hide();
             itemsObj.ShowDialog();
             this.Close();
         }

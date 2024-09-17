@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\visio\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\visio\\.nuget\\packages"
+      "C:\\Users\\Rashi\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Rashi\\.nuget\\packages"
     ],
     "configProperties": {
       "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,

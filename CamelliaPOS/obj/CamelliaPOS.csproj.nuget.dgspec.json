@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\visio\\Documents\\Settings\\Git Hub\\Camellia-POS-Windows-Forms-App\\CamelliaPOS\\CamelliaPOS.csproj": {}
+    "C:\\Users\\Rashi\\Documents\\My\\Git Hub\\Camellia-POS-Windows-Forms-App\\CamelliaPOS\\CamelliaPOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\visio\\Documents\\Settings\\Git Hub\\Camellia-POS-Windows-Forms-App\\CamelliaPOS\\CamelliaPOS.csproj": {
+    "C:\\Users\\Rashi\\Documents\\My\\Git Hub\\Camellia-POS-Windows-Forms-App\\CamelliaPOS\\CamelliaPOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\visio\\Documents\\Settings\\Git Hub\\Camellia-POS-Windows-Forms-App\\CamelliaPOS\\CamelliaPOS.csproj",
+        "projectUniqueName": "C:\\Users\\Rashi\\Documents\\My\\Git Hub\\Camellia-POS-Windows-Forms-App\\CamelliaPOS\\CamelliaPOS.csproj",
         "projectName": "CamelliaPOS",
-        "projectPath": "C:\\Users\\visio\\Documents\\Settings\\Git Hub\\Camellia-POS-Windows-Forms-App\\CamelliaPOS\\CamelliaPOS.csproj",
-        "packagesPath": "C:\\Users\\visio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\visio\\Documents\\Settings\\Git Hub\\Camellia-POS-Windows-Forms-App\\CamelliaPOS\\obj\\",
+        "projectPath": "C:\\Users\\Rashi\\Documents\\My\\Git Hub\\Camellia-POS-Windows-Forms-App\\CamelliaPOS\\CamelliaPOS.csproj",
+        "packagesPath": "C:\\Users\\Rashi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rashi\\Documents\\My\\Git Hub\\Camellia-POS-Windows-Forms-App\\CamelliaPOS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\visio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Rashi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -74,7 +73,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
