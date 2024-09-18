@@ -46,7 +46,7 @@ namespace CamelliaPOS
             this.Close();
         }
 
-        private void pnl_Click(object sender, EventArgs e)
+        private void pnlCustomers_Click(object sender, EventArgs e)
         {
             Customers customersObj = new Customers();
             this.Hide();
