@@ -16,13 +16,13 @@ namespace CamelliaPOS
         {
             InitializeComponent();
         }
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
 
         private void pnlDashboard_Click(object sender, EventArgs e)
         {
-            Categories categoriesObj = new Categories();
-            this.Hide();
-            categoriesObj.ShowDialog();
-            this.Close();
         }
 
         private void pnlItems_Click(object sender, EventArgs e)

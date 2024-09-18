@@ -75,7 +75,7 @@
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(279, 608);
+            panel1.Size = new Size(279, 768);
             panel1.TabIndex = 0;
             // 
             // pictureBox1
@@ -187,7 +187,7 @@
             panel2.BackColor = Color.Blue;
             panel2.Controls.Add(label1);
             panel2.Dock = DockStyle.Bottom;
-            panel2.Location = new Point(0, 550);
+            panel2.Location = new Point(0, 710);
             panel2.Name = "panel2";
             panel2.Size = new Size(279, 58);
             panel2.TabIndex = 0;
@@ -264,19 +264,20 @@
             // 
             // exitCategoriesButton
             // 
-            exitCategoriesButton.Location = new Point(1142, 14);
+            exitCategoriesButton.Location = new Point(1317, 12);
             exitCategoriesButton.Name = "exitCategoriesButton";
             exitCategoriesButton.Size = new Size(37, 33);
             exitCategoriesButton.TabIndex = 8;
             exitCategoriesButton.Text = "X";
             exitCategoriesButton.UseVisualStyleBackColor = true;
+            exitCategoriesButton.Click += btnExit_Click;
             // 
             // Categories
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(1191, 608);
+            ClientSize = new Size(1366, 768);
             Controls.Add(exitCategoriesButton);
             Controls.Add(textBox1);
             Controls.Add(label8);
@@ -290,6 +291,7 @@
             Name = "Categories";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Categories";
+            WindowState = FormWindowState.Maximized;
             Click += pnlDashboard_Click;
             panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

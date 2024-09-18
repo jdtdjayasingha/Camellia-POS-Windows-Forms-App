@@ -24,10 +24,6 @@ namespace CamelliaPOS
 
         private void pnlDashboard_Click(object sender, EventArgs e)
         {
-            Categories categoriesObj = new Categories();
-            this.Hide();
-            categoriesObj.ShowDialog();
-            this.Close();
         }
 
         private void pnlItems_Click(object sender, EventArgs e)
