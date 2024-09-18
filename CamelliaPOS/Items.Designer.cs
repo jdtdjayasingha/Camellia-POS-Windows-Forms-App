@@ -59,7 +59,6 @@
             label12 = new Label();
             textBox5 = new TextBox();
             comboBox1 = new ComboBox();
-            button4 = new Button();
             button5 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -163,6 +162,7 @@
             panel7.Name = "panel7";
             panel7.Size = new Size(279, 56);
             panel7.TabIndex = 5;
+            panel7.Click += pnlBilling_Click;
             // 
             // label5
             // 
@@ -181,6 +181,7 @@
             panel6.Name = "panel6";
             panel6.Size = new Size(279, 56);
             panel6.TabIndex = 4;
+            panel6.Click += pnlCustomers_Click;
             // 
             // label4
             // 
@@ -199,6 +200,7 @@
             panel5.Name = "panel5";
             panel5.Size = new Size(279, 56);
             panel5.TabIndex = 3;
+            panel5.Click += pnlCategories_Click;
             // 
             // label3
             // 
@@ -217,6 +219,7 @@
             panel4.Name = "panel4";
             panel4.Size = new Size(279, 56);
             panel4.TabIndex = 2;
+            panel4.Click += pnlItems_Click;
             // 
             // label2
             // 
@@ -266,7 +269,6 @@
             // panel1
             // 
             panel1.BackColor = SystemColors.MenuHighlight;
-            panel1.Controls.Add(button4);
             panel1.Controls.Add(pictureBox1);
             panel1.Controls.Add(panel7);
             panel1.Controls.Add(panel6);
@@ -344,18 +346,6 @@
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(159, 23);
             comboBox1.TabIndex = 26;
-            // 
-            // button4
-            // 
-            button4.BackColor = Color.Blue;
-            button4.FlatAppearance.BorderSize = 0;
-            button4.Location = new Point(9, 521);
-            button4.Margin = new Padding(0);
-            button4.Name = "button4";
-            button4.Size = new Size(264, 64);
-            button4.TabIndex = 27;
-            button4.Text = "button4";
-            button4.UseVisualStyleBackColor = false;
             // 
             // button5
             // 
@@ -446,7 +436,6 @@
         private Label label12;
         private TextBox textBox5;
         private ComboBox comboBox1;
-        private Button button4;
         private Button button5;
     }
 }
