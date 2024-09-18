@@ -56,5 +56,5 @@ namespace CamelliaPOS
             billObj.ShowDialog();
             this.Close();
         }
-    }
+     }
 }
