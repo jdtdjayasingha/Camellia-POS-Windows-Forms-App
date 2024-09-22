@@ -604,7 +604,8 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Rashi\\.nuget\\packages\\": {}
+    "C:\\Users\\Rashi\\.nuget\\packages\\": {},
+    "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages": {}
   },
   "project": {
     "version": "1.0.0",
@@ -615,8 +616,12 @@
       "packagesPath": "C:\\Users\\Rashi\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Rashi\\Documents\\My\\Git Hub\\Camellia-POS-Windows-Forms-App\\CamelliaPOS\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages"
+      ],
       "configFilePaths": [
         "C:\\Users\\Rashi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -624,6 +629,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

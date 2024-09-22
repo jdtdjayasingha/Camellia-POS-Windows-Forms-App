@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CamelliaPOS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9dceaaf4eb2539597e0cf974c386b38076cd38ea")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+367547f17a1913a2ddf2b30120aa55bbc49f2502")]
 [assembly: System.Reflection.AssemblyProductAttribute("CamelliaPOS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CamelliaPOS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
